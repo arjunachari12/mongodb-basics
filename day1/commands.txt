@@ -1,0 +1,12 @@
+show dbs
+
+## create new db or use existing db
+use mydatabase 
+
+show collections
+
+db.createCollection("mycollection")
+
+db.mycollection.insertOne({"name": "arjun"})
+
+db.mycollection.find()
